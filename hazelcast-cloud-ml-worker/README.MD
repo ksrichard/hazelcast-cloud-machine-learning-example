@@ -15,7 +15,7 @@ One is to calculate the overall price prediction for the next day and the other 
 
 How to run
 ---
-1. Install `python3` and `pip`
+1. Install `python3` and `pip3`
 2. `$ ./install.sh` to install all python dependencies
 3. In `config.ini` set the Hazelcast Cloud configuration properties:
     ```ini
@@ -25,7 +25,7 @@ How to run
     HzCloudDiscoveryToken = CLUSTER DISCOVERY TOKEN
     ```
 
-4. `$ python worker.py` - to start a worker instance
+4. `$ ./run.sh` - to start a worker instance
 
 You can start any amount of workers as the calculation and historical data import
 is distributed across all workers using Hazelcast Cloud cluster.
