@@ -11,7 +11,7 @@
     <properties>
         <hazelcast-client.version>3.12.6</hazelcast-client.version>
         <spring-web.version>5.1.5.RELEASE</spring-web.version>
-        <jackson.version>2.10.3</jackson.version>
+        <jackson.version>2.12.1</jackson.version>
     </properties>
 
     <dependencies>
